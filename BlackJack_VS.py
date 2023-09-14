@@ -123,7 +123,7 @@ def game():
                     elif dealer_total > 21:
                         print("Dealer busted! You win!!")
                         time.sleep(1)
-                        break
+                        exit()
                     else:
                         print("Dealer has chosen to stay")
                         break
